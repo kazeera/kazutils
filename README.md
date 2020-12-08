@@ -10,13 +10,13 @@ This package contains a bunch of functions for data analysis tasks. It includes 
 ## Installation
 You can install the latest version from Github:
 ``` r
-devtools::install_github("kazeera/kazeera", upgrade_dependencies = FALSE)
+devtools::install_github("kazeera/kazutils", upgrade_dependencies = FALSE)
 ```
 
 ## How to Use 
 Load package.
 ``` r
-library(kazeera)
+library(kazutils)
 ```
 
 1. Load multiple packages into the environment.
