@@ -1,0 +1,16 @@
+Package: kazutils
+Title: Utility Functions for Data Analysis
+Version: 0.0.0.9000
+Authors@R: person("Kazeera", "Aliar", , "kazeeraaliar@gmail.com", role = c("aut", "cre"))
+Description: This package contains functions that facilitate data analysis tasks. It includes functions
+    to write objects to an excel file using openxlsx, as well as creating a new directory 
+    based on a path.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.1.0)
+Imports:
+	openxlsx
