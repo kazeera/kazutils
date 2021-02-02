@@ -11,7 +11,6 @@
 #' openxlsx::saveWorkbook(wb, file="filename.xlsx") # Save wb to file
 #' @export
 write_df_to_Excel <- function(sheet_name, my_df, wb, incl_rownames = F){
-  require(openxlsx)
   # Add a worksheet to the workbook with the name specified in the argument
   addWorksheet(wb, sheet_name)
   # Write data frame to worksheet

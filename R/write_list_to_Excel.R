@@ -10,8 +10,6 @@
 #' openxlsx::saveWorkbook(wb, file="filename.xlsx") # Save wb to file
 #' @export
 write_list_to_Excel <- function(sheet_name, my_list, wb){
-  # Call required package to write to Excel
-  require(openxlsx)
   # Add a worksheet to the workbook with the name specified in the argument
   addWorksheet(wb, sheet_name)
   # Initialize column number counter
