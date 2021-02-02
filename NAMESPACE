@@ -3,5 +3,6 @@
 export(create_folder)
 export(get_nth_part)
 export(load_packages)
+export(split_one.by.one)
 export(write_df_to_Excel)
 export(write_list_to_Excel)
